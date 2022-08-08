@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.637);
+  color: rgb(221, 221, 221);
+  padding: 0 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  .menu {
+    .menu-item {
+      padding: 0 2rem;
+      color: rgb(221, 221, 221);
+      text-transform: capitalize;
+    }
+  }
+}
